@@ -416,6 +416,11 @@ body {
     transform: translateY(-3px); 
 }
 
+.social-icons i {
+    font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400;
+}
+
 
 .footer-bottom {
     background-color: var(--nav-color);
