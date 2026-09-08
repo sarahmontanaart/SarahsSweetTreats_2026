@@ -163,3 +163,13 @@ body{
 .btn:hover {
     background-color: var(--accent-pink1);
 }
+
+.social-icons a i {
+    font-family: "Font Awesome 6 Brands" !important;
+    display: inline-block !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 400 !important;
+}
