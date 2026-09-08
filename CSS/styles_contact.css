@@ -23,9 +23,6 @@
 	
 }
 
-*:not(.fab):not(.fa-brands) {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 html{
 	font-size: 62.5%;
@@ -34,6 +31,7 @@ html{
 
 body{
 	background-color: var(--background-color);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contact-intro {
