@@ -1,0 +1,173 @@
+<!--Sarah Montana CIS133DA Section 10081-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <title>[Sarah's Sweets]</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+	  <link href="CSS/styles_indexhome.css" rel="stylesheet" />
+	  <link href="CSS/styles_contact.css" rel="stylesheet" />
+	  <link href="CSS/styles_subnav_indexhome.css" rel="stylesheet" />
+	  <link href="CSS/styles_signup.css" rel="stylesheet" /> 
+	  <link href="CSS/styles_sweets.css" rel="stylesheet" /> 
+	  <link href="CSS/styles_classes.css" rel="stylesheet" />
+	  <link href="CSS/styles_about.css" rel="stylesheet" />
+	  
+	  <link rel="stylesheet" "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	
+
+	  
+	</head>
+	
+	<body>
+		<div class="navigation-wrapper">
+			<header class= "headernav">
+				<a href="index.html" class="logo"><img src="images/logo2.png" alt="Sarah's Sweets Logo" /></a>
+			
+					<nav class="navbar">
+			
+						<a href="index.html">Home</a>
+						
+						 <!-- SWEETS DROPDOWN -->
+						<div class="dropdown">
+							<a href="sweets.html" class="sweets-link">Sweets</a>
+							<nav class="subnav" aria-label="Sweets Sub Navigation">
+								<a href="cake.html">Cakes</a>
+								<a href="cookie.html">Cookies</a>
+								<a href="cupcake.html">Cupcakes</a>
+								<a href="pie.html">Pies</a>
+							</nav>
+						</div>
+				
+						 <!-- CLASSES DROPDOWN--!>
+						 <div class="dropdown">
+							<a href="classes.html" class="classes-link">Classes</a>
+							<nav class="subnav" aria-label="Classes Sub Navigation">
+								<a href="classes.html">Calendar</a>
+								<a href="signup_classes.html">Sign Up Now</a>
+							</nav>
+						</div>
+						
+						
+				
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+
+				 <form class="nav-search-form" action="" method="GET">
+                    <input type="text" placeholder="Search sweets..." class="nav-search-input">
+                    <button type="submit" class="nav-search-btn" aria-label="Submit Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+		
+		</header>
+		
+		</div>
+		
+	 <main class="page-content">
+        <!-- Main Contact Header -->
+        <section class="contact-intro">
+			<h1 class="title">Join Our <span>Baking</span> Community</h1> 
+            
+            <p>Stay updated with our weekly blog posts, get fresh recipes directly in your inbox, and share your favorite family treats with bakers around the world!</p>
+        </section>
+
+        <!-- Two-Column Form and Info -->
+        <div class="contact-wrapper">
+            
+            <!-- LEFT: Subscribe & YouTube -->
+            <div class="contact-left-col">
+                <div class="contact-box">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Sign up to stay updated with new recipes, baking tips, and weekly blog posts.</p>
+                    
+                    <form class="simple-form">
+                        <label>Email Address:</label>
+                        <input type="email" placeholder="yourname@email.com" required>
+                        <button type="submit" class="contact-btn">Subscribe to Blog</button>
+                    </form>
+                </div>
+
+                <div class="contact-box youtube-box">
+                    <h2>Our YouTube Channel</h2>
+                    <p>Watch our weekly video tutorials to master your baking skills step-by-step.</p>
+                    
+                    <a href="https://www.youtube.com/@SarahMontana-CIS103" target="_blank" class="youtube-btn">Watch Our Current Video</a>
+                </div>
+            </div>
+
+            <!-- RIGHT: Family Recipe Form -->
+            <div class="contact-right-col">
+                <div class="contact-box">
+                    <h2>Submit Your Family Recipe</h2>
+                    <p>Submit your favorite family recipe below for a chance to have it featured in our weekly blog posts and upcoming YouTube videos!</p>
+                    
+                    <form class="recipe-submission-form">
+                        <label>Your Name:</label>
+                        <input type="text" placeholder="Enter your full name" required>
+
+                        <label>Recipe Name:</label>
+                        <input type="text" placeholder="e.g., Grandma's Apple Crisp" required>
+
+                        <label>Ingredients Details:</label>
+                        <textarea placeholder="List your ingredients and measurements here..." required></textarea>
+
+                        <label>Baking Instructions:</label>
+                        <textarea placeholder="Describe the steps to bake your family treat..." required></textarea>
+
+                        <button type="submit" class="contact-btn pink-btn">Submit Recipe</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+	
+	
+	<footer class="main-footer">
+		<div class="footer-container">
+		<div class="footer-col">
+				
+				<a href="index.html" class="footer-logo">
+					<img src="images/logo2.png" alt="Sarah's Sweets Logo" />
+				</a>
+				
+				<h4>Sarah's Sweets</h4>
+				<p>Making life a little sweeter, one bite at a time. Sharing delicious recipies from my kitchen to yours through recipies and interactive baking classes. Together baking something sweet and beautiful.</p>
+				<p class="contact-detail">Email: hello@sarahssweets.com</p>
+				<p class="contact-detail">Phone: (555) 123-4567</p>
+			</div>
+			
+		<div class="footer-col">
+			<h4>Quick Links</h4>
+				<ul class="footer-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sweets.html">Sweets</a></li>
+					<li><a href="classes.html">Classes</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</div>
+		
+		<div class="footer-col"> 
+                <h4>Follow Us</h4> 
+                <div class="social-icons"> 
+                    <a href="https://www.instagram.com/simplysarahm35/?hl=en" target="_blank" aria-label="Instagram"><i class= "fab fa-instagram"></i></a> 
+					<a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class= "fab fa-facebook-f"></i></a> 
+					<a href="https://pin.it/7uLXYBVpk" target="_blank" aria-label="Pinterest"><i class= "fab fa-pinterest-p"></i></a> 
+					<a href="https://www.youtube.com/@SarahMontana-CIS103" target="_blank" aria-label="YouTube"><i class= "fab fa-youtube"></i></a> 
+					<a href="https://medium.com/@sar2067116" target="_blank" aria-label="Medium"><i class= "fab fa-medium"></i></a> 
+			</div> 
+           </div> 
+		</div>
+		
+		<div class="footer-bottom">
+			<p>&copy; 2026 Sarah's Sweets. All rights reserved. | Handcrafted with Love.</p>
+		</div>
+	</footer>
+	</body>
+</html>
