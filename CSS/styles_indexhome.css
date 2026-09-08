@@ -441,6 +441,8 @@ body {
         text-align: center;
     }
 
+}
+
 .social-icons a i {
     font-family: "Font Awesome 6 Brands" !important;
     display: inline-block !important;
@@ -450,4 +452,4 @@ body {
     -webkit-font-smoothing: antialiased !important;
     font-weight: 400 !important;
 }
-}
+
