@@ -1,0 +1,165 @@
+:root{
+	--main-color: #9ee6d8;
+	--nav-color: #00afa5;
+	--background-color: #e8f3f1;
+	--black: #050d0c;
+	--accent-pink1: #e35b9f;
+	--accent-pink2: #e691bb;
+	--accent-pink3: #eba4c7;
+	--accent-drpink: #9c0b53;
+	--accent-hotpink: #e8107b;
+	--accent-lghthotpink: #fc6ab3;
+	--accent-drkteal: #00544f;
+	--accent-brightteal: #00eddf;
+	--cream-vanilla: #fdf8f5;
+	--muted-teal: #cbdad7;
+	--accent-lgtpink: #facde3;
+	--muted-pink: #e0afc7;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+
+*:not(.fab):not(.fa-brands) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body{
+	background-color: var(--background-color);
+}
+
+/* Styles for Sub Nav Pages */
+
+.cake-intro, .cookie-intro, .cupcake-intro, .pie-intro {
+    width: 800px;
+    margin-top: 180px;      
+    margin-bottom: 30px;
+    margin-left: auto;      
+    margin-right: auto;
+}
+
+.cake-intro h1, .cookie-intro h1, .cupcake-intro h1, .pie-intro h1 {
+    font-size: 40px;
+    color: var(--accent-drpink);
+    margin-bottom: 15px;
+}
+
+.cupcake-intro h4 {
+    font-size: 20px;
+    color: var(--nav-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cupcake-intro h5, .pie-intro h5 {
+    font-size: 22px;        
+    color: var(--accent-pink1); 
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+
+.cake-intro p, .cookie-intro p, .cupcake-intro p, .pie-intro p {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 15px;
+    text-transform: none;   
+}
+
+.recipe-btn {
+    background-color: var(--accent-pink1);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.recipe-btn:hover {
+    background-color: var(--accent-hotpink);
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: var(--accent-drkteal);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    clear: both;            
+}
+
+.title span {
+    color: var(--accent-pink1);
+}
+
+
+.wrapper {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;      
+    margin-right: auto;
+}
+
+.wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.cake-card, .cookie-card, .cupcake-card, .pie-card {
+    width: 31%;             
+    float: left;            
+    margin-right: 3%;      
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.wrapper div:last-child {
+    margin-right: 0;
+}
+
+.cake-card img, .cookie-card img, .cupcake-card img, .pie-card img {
+    width: 100%;            
+    height: 350px;
+	display: block;
+    margin-bottom: 15px;
+	object-fit: cover;
+}
+
+
+.cake-card h3, .cookie-card h3, .cupcake-card h3, .pie-card h3 {
+    font-size: 18px;
+    color: var(--black);
+    margin-bottom: 15px;
+	min-height: 44px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--nav-color); 
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--accent-pink1);
+}

@@ -1,0 +1,212 @@
+/*Sarah Montana CIS133DA Section 10081*/
+
+
+/*About Page*/
+
+/*Hero Restatement */
+.about-hero-restate {
+    max-width: 1000px;
+    margin-top: 180px;      
+    margin-bottom: 60px;
+    margin-left: auto;      
+    margin-right: auto;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.about-hero-restate h1 {
+    font-size: 38px;
+    color: var(--accent-hotpink); 
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.about-hero-restate p {
+    font-size: 16px;
+    color: var(--black);
+    line-height: 1.8;
+    text-transform: none !important;
+}
+
+
+.about-split-row {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+}
+
+
+.about-split-row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-hero-restate h1.title {
+    color: var(--accent-hotpink)!important;
+}
+
+.about-hero-restate h1.title span {
+    color: var(--accent-drkteal) !important;
+	text-transform: uppercase !important;
+	display: inline-block;
+}
+
+/*Photo Layout */
+.about-photo-col {
+    width: 40%;
+    float: left;            
+    margin-right: 5%;
+}
+
+.about-image-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(5, 13, 12, 0.04);
+}
+
+.about-image-card img {
+    width: 100%;
+    height: 400px;          
+    object-fit: cover;      
+    display: block;
+    margin-bottom: 15px;
+}
+
+.about-image-card h3 {
+    font-size: 16px;
+    color: var(--accent-drkteal);
+}
+
+/* Journey Text  */
+.about-text-col {
+    width: 55%;
+    float: left;            
+}
+
+.about-text-col h2 {
+    font-size: 28px;
+    color: var(--accent-drpink);
+    margin-bottom: 20px;
+}
+
+.about-text-col p {
+    font-size: 15px;
+    color: var(--black);
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;    
+    text-transform: none !important;
+}
+
+
+/*Social Media*/
+
+.about-social {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    clear: both;
+}
+
+
+.social-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.social-card {
+    width: 22%;                 
+    float: left;                
+    margin-right: 4%;           
+    background-color: white;
+    padding: 25px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(5, 13, 12, 0.04);
+}
+
+
+.social-wrapper div:last-child {
+    margin-right: 0 !important;
+}
+
+.social-card h4 {
+    font-size: 20px;
+    color: var(--accent-drkteal);
+    margin-bottom: 10px;
+}
+
+.social-card p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--black);
+    margin-bottom: 20px;
+    min-height: 60px;           
+    text-transform: none !important;
+    text-align: center !important;
+}
+
+
+.social-btn {
+    display: block;
+    width: 100%;
+    background-color: var(--nav-color); 
+    color: white !important;          
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;                 
+    box-shadow: 0 2px 5px rgba(5, 13, 12, 0.05);
+}
+
+
+.social-btn:hover {
+    background-color: var(--accent-pink1); 
+    letter-spacing: 1px;
+}
+
+.card-icon {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.card-icon i {
+    font-size: 42px; 
+    color: var(--accent-drkteal); 
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+.social-card:hover .card-icon i {
+    color: var(--accent-hotpink); 
+    transform: scale(1.1); 
+}
+
+
+/* Mobile responsive view  */
+@media screen and (max-width: 900px) {
+    .social-card {
+        width: 48%;             */
+        margin-bottom: 20px;
+    }
+    .social-wrapper div:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social-card {
+        width: 100%;            
+        float: none;
+        margin-right: 0 !important;
+    }
+}

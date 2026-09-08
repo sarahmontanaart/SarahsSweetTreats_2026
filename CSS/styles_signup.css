@@ -1,0 +1,141 @@
+/*Sarah Montana CIS133DA Section 10081*/
+
+
+:root{
+	--main-color: #9ee6d8;
+	--nav-color: #00afa5;
+	--background-color: #e8f3f1;
+	--black: #050d0c;
+	--accent-pink1: #e35b9f;
+	--accent-pink2: #e691bb;
+	--accent-pink3: #eba4c7;
+	--accent-drpink: #9c0b53;
+	--accent-hotpink: #e8107b;
+	--accent-lghthotpink: #fc6ab3;
+	--accent-drkteal: #00544f;
+	--accent-brightteal: #00eddf;
+	
+	
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	
+}
+
+*:not(.fab):not(.fa-brands) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body{
+	background-color: var(--background-color);
+}
+
+
+.page-content {
+    margin-top: 180px;      
+    padding: 20px 5%;
+}
+
+
+.signup-container {
+    width: 500px;           
+    margin-top: 20px;      
+    margin-bottom: 60px;
+    margin-left: auto;     
+    margin-right: auto;
+    background-color: white; 
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(5, 13, 12, 0.05); 
+    box-sizing: border-box;
+}
+
+.signup-container h1 {
+    font-size: 35px;
+    color: var(--accent-drpink);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signup-container p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: none!important;  
+}
+
+.form-group {
+    margin-bottom: 20px;    
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--accent-drkteal);
+    margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    text-transform: none !important;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;            
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #cbdad7; 
+    box-sizing: border-box; 
+}
+
+
+.form-group textarea {
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: none;
+    resize: none;
+	text-transform: none !important;	
+}
+
+.submit-form-btn {
+    display: block;
+    width: 100%;           
+    background-color: var(--nav-color); 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.submit-form-btn:hover {
+    background-color: var(--accent-pink1); 
+}
+
+@media screen and (max-width: 600px) {
+    .page-content {
+        margin-top: 160px;  
+    }
+    .signup-container {
+        width: 100%;        
+        padding: 20px;
+    }
+}

@@ -1,0 +1,234 @@
+/*Sarah Montana CIS133DA Section 10081*/
+
+
+:root{
+	--main-color: #9ee6d8;
+	--nav-color: #00afa5;
+	--background-color: #e8f3f1;
+	--black: #050d0c;
+	--accent-pink1: #e35b9f;
+	--accent-pink2: #e691bb;
+	--accent-pink3: #eba4c7;
+	--accent-drpink: #9c0b53;
+	--accent-hotpink: #e8107b;
+	--accent-lghthotpink: #fc6ab3;
+	--accent-drkteal: #00544f;
+	--accent-brightteal: #00eddf;
+	
+	
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	
+}
+
+*:not(.fab):not(.fa-brands) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body{
+	background-color: var(--background-color);
+}
+
+ .wrapper {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+	.wrapper::after {
+		content: ""; 
+		display: block; 
+		clear: both; } 
+
+
+	.cake-card, .cookie-card, .cupcake-card, .pie-card { 
+		width: 31%; 
+		float: left; 
+		margin-right: 3%; 
+		background-color: white; 
+		padding: 20px; 
+		text-align: center; 
+		box-sizing: border-box; 
+		} 
+
+	.wrapper div:last-child, 
+	.wrapper .cake-card:last-child, 
+	.wrapper .cookie-card:last-child, 
+	.wrapper .cupcake-card:last-child, 
+	.wrapper .pie-card:last-child {
+		margin-right: 0 !important; 
+		} 
+
+
+
+	.cookie-page-wrapper .cookie-card {
+		width: 31% !important;
+		margin-right: 3% !important;
+}
+
+
+
+	.sweets-intro + .wrapper .cake-card, 
+	.sweets-intro + .wrapper .cookie-card, 
+	.sweets-intro + .wrapper .cupcake-card, 
+	.sweets-intro + .wrapper .pie-card { 
+		width: 22%; 
+		margin-right: 4%; 
+		} 
+
+	.sweets-intro + .wrapper div:last-child {
+		margin-right: 0 !important; 
+		} 
+
+	.sweets-intro, .cookie-intro, .cake-intro, .cupcake-intro, .pie-intro {
+		width: 1200px;
+		margin-top: 180px !important; 
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 5%; 
+		} 
+
+	
+	.sweets-intro h1.title, .cake-intro h1.title, .cookie-intro h1.title, .cupcake-intro h1.title, .pie-intro h1.title {
+    font-size: 35px;
+    color: var(--accent-hotpink);
+    margin-bottom: 35px;
+    text-align: center;
+    text-transform: none !important;
+}
+
+	.sweets-intro p, .cake-intro p, .cookie-intro p, .cupcake-intro p, .pie-intro p {
+		font-size: 16px; 
+		color: var(--black);
+		line-height: 1.8;
+		text-align: left;
+		margin-bottom: 15px;
+		text-transform: none !important;
+		} 
+	
+	.title {
+		text-align: center;
+		font-size: 30px;
+		color: var(--accent-hotpink);
+		margin-top: 50px;
+		margin-bottom: 30px;
+		clear: both;
+		} 
+		
+	.title span {
+	color: var(--accent-drkteal);
+	}
+	
+	h3.title {
+    font-weight: normal;
+}
+
+h3.title span {
+    color: var(--accent-drkteal) !important;
+}
+
+	.sweets-intro h1.title span,
+.cake-intro h1.title span,
+.cookie-intro h1.title span,
+.cupcake-intro h1.title span,
+.pie-intro h1.title span {
+    color: var(--accent-drkteal) !important;
+}
+	
+	
+
+	.cake-card img, .cookie-card img, .cupcake-card img, .pie-card img {
+		width: 100%; 
+		height: 320px; 
+		object-fit: cover;
+		display: block;
+		margin-bottom: 15px;
+		} 
+
+	.cake-card h3, .cookie-card h3, .cupcake-card h3, .pie-card h3 {
+		font-size: 18px; 
+		color: var(--black); 
+		margin-bottom: 15px; 
+		min-height: 44px;		
+		} 
+
+	.btn {
+		display: inline-block;
+		background-color: var(--nav-color);
+		color: white; 
+		font-size: 14px;
+		padding: 8px 16px;
+		cursor: pointer; 
+		} 
+
+	.btn:hover {
+		background-color: var(--accent-pink1); 
+		} 
+
+	.main-footer {
+		clear: both;
+		display: block;
+		width: 100%;
+		}
+
+
+
+		
+.video-showcase {
+    max-width: 1200px; /
+    margin: 40px auto 60px auto; 
+    padding: 0 5%; 
+    text-align: center;
+		clear: both; 
+		}
+
+.video-showcase h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+section.video-showcase h2.title {
+    color: var(--accent-hotpink) !important;
+}
+
+section.video-showcase h2.title span {
+    color: var(--accent-drkteal) !important;
+}
+
+.video-showcase p {
+    font-size: 16px;
+    color: var(--black);
+    line-height: 1.8;
+    max-width: 800px; 
+    margin: 0 auto 30px auto; 
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(5, 13, 12, 0.15); 
+    border: 3px solid white; 
+}
