@@ -31,18 +31,13 @@
 		
 }
 
-
-*:not(.fab):not(.fa-brands) {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
 html{
 	font-size: 62.5%;
 	overflow-x: hidden;
 }
 
 body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: var(--background-color);
 }
 
