@@ -230,3 +230,14 @@ section.video-showcase h2.title span {
     box-shadow: 0 4px 12px rgba(5, 13, 12, 0.15); 
     border: 3px solid white; 
 }
+
+.social-icons a i {
+    font-family: "Font Awesome 6 Brands" !important;
+    display: inline-block !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 400 !important;
+}
+
